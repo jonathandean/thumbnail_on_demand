@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "thumbnail_on_demand"
   gem.homepage = "http://github.com/jonathandean/thumbnail_on_demand"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "An add-on to paperclip that allows for on-demand, cached thumbnail creation"
+  gem.description = "An add-on to paperclip that allows for on-demand, cached thumbnail creation"
   gem.email = "jon@jonathandean.com"
   gem.authors = ["Jonathan Dean"]
   # dependencies defined in Gemfile
