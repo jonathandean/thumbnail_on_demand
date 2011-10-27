@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{thumbnail_on_demand}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Jonathan Dean}]
-  s.date = %q{2011-10-20}
+  s.date = %q{2011-10-27}
   s.description = %q{An add-on to paperclip that allows for on-demand, cached thumbnail creation}
   s.email = %q{jon@jonathandean.com}
   s.extra_rdoc_files = [
@@ -27,7 +27,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/thumbnail_on_demand.rb",
     "spec/spec_helper.rb",
-    "spec/thumbnail_on_demand_spec.rb"
+    "spec/thumbnail_on_demand_spec.rb",
+    "thumbnail_on_demand.gemspec"
   ]
   s.homepage = %q{http://github.com/jonathandean/thumbnail_on_demand}
   s.licenses = [%q{MIT}]
