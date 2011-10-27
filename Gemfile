@@ -11,3 +11,8 @@ group :development do
   gem "jeweler", "~> 1.6.4"
   gem "rcov", ">= 0"
 end
+
+group :test do
+  gem "activerecord", "~> 3.0"
+  gem "paperclip", "~> 2.4.4"
+end

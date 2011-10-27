@@ -1,7 +1,17 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe "ThumbnailOnDemand" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+class TestModel < ActiveRecord::Base
+  include Paperclip
+  has_attached_file   :attachment,
+                      :styles => { :large => '1000x1000>'},
+                      :on_demand_styles => { :small => "600x600>" }
+end
+
+describe ThumbnailOnDemand do
+  before(:each) do
+
+  end
+  describe "#thumbnail" do
+    it "should return a string"
   end
 end
