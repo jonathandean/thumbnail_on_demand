@@ -8,6 +8,10 @@ This version requires this special fork of (an outdated version of) paperclip:
 
 I think paperclip_tod is a fork of paperclip 2.4.5 if I remember correctly
 
+If you want to use this version, add the following to your gemfile after adding the above version of paperclip:
+
+  gem 'thumbnail_on_demand', "0.1.0"
+
 == Contributing to thumbnail_on_demand
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
