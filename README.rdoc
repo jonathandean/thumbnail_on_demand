@@ -1,6 +1,12 @@
 = thumbnail_on_demand
 
-Description goes here.
+This paperclip add-on for generating thumbnails on demand is being replaced by a new fork of paperclip at http://github.com/jonathandean/paperclip
+
+This version requires this special fork of (an outdated version of) paperclip:
+
+  gem "paperclip", :git => "git@github.com:jonathandean/paperclip_tod.git"
+
+I think paperclip_tod is a fork of paperclip 2.4.5 if I remember correctly
 
 == Contributing to thumbnail_on_demand
  
